@@ -7,7 +7,8 @@ import { EbComponent } from './eb/eb.component';
 import { TrvComponent } from './trv/trv.component';
 import { TwdbComponent } from './twdb/twdb.component';
 import { FormsModule }  from '@angular/forms';
-import { StdComponent } from './std/std.component'
+import { StdComponent } from './std/std.component';
+import { SwitchDemoComponent } from './switch-demo/switch-demo.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { StdComponent } from './std/std.component'
     EbComponent,
     TrvComponent,
     TwdbComponent,
-    StdComponent
+    StdComponent,
+    SwitchDemoComponent
   ],
   imports: [
     BrowserModule,
