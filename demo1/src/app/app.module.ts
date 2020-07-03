@@ -8,7 +8,8 @@ import { TrvComponent } from './trv/trv.component';
 import { TwdbComponent } from './twdb/twdb.component';
 import { FormsModule }  from '@angular/forms';
 import { StdComponent } from './std/std.component';
-import { SwitchDemoComponent } from './switch-demo/switch-demo.component'
+import { SwitchDemoComponent } from './switch-demo/switch-demo.component';
+import { ChildComponent } from './child/child.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SwitchDemoComponent } from './switch-demo/switch-demo.component'
     TrvComponent,
     TwdbComponent,
     StdComponent,
-    SwitchDemoComponent
+    SwitchDemoComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
