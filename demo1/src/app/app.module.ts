@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EbComponent } from './eb/eb.component';
 import { TrvComponent } from './trv/trv.component';
+import { TwdbComponent } from './twdb/twdb.component';
+import { FormsModule }  from '@angular/forms'
 
 @NgModule({
   declarations: [
     AppComponent,
     EbComponent,
-    TrvComponent
+    TrvComponent,
+    TwdbComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
