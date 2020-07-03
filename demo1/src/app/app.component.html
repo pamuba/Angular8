@@ -3,4 +3,6 @@
 <!-- <app-twdb></app-twdb> -->
 <!-- <app-std></app-std> -->
 <!-- <app-switch-demo></app-switch-demo> -->
-<app-child  [parentData] = "name"></app-child>
+{{message}}
+<hr>
+<app-child  (childEvent)="message=$event"  [parentData] = "name"></app-child>
