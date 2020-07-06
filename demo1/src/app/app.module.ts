@@ -8,6 +8,7 @@ import { TrvComponent } from './trv/trv.component';
 import { TwdbComponent } from './twdb/twdb.component';
 import { FormsModule }  from '@angular/forms';
 import { StdComponent } from './std/std.component';
+import { HttpClientModule } from '@angular/common/http'
 import { SwitchDemoComponent } from './switch-demo/switch-demo.component';
 import { ChildComponent } from './child/child.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
@@ -28,7 +29,8 @@ import { EmployeeDetailComponent } from './employee-detail/employee-detail.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule, 
+    HttpClientModule
   ],
   providers: [EmployeeService],
   bootstrap: [AppComponent]

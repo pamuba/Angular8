@@ -18,7 +18,8 @@ export class EmployeeListComponent implements OnInit {
 
   //Life cycle hook
   ngOnInit(): void {
-    this.employees = this._employeeservice.getEmployees();
+    this._employeeservice.getEmployees()
+        .subscribe(data => this.employees = data)
   }
 
 }
